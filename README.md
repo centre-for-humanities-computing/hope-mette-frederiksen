@@ -17,7 +17,10 @@ Retweets were discarded, and quote tweets were removed. The way of removal was v
 
 ## Time series analysis
 ![Time series of mentions](fig/twitter_tweet_frequency.png)
-The above figure shows the total mentions of Mette Frederiksen together with the mentions of @Statsmin.
+The above figure shows the total mentions of Mette Frederiksen together with the mentions of @Statsmin. They seem to somewhat correlate. The correlation is visualized in the below plot.
+
+![Jointplot](fig/twitter_MF_against_statsmin.png)
+The correlation between the mentions is leaning towards Mette Frederiksen mentions which means that @Statsmin has a higher number of mentions for every Mette Frederiksen mention, but they do have a tendency to co-occur in the data.
 
 ## Frequent hashtags
 A hashtag analysis was conducted to see if there might be a trending hashtag popping up in the dataset.
